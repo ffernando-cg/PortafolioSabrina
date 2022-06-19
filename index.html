@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://unpkg.com/xp.css@0.2.3/dist/98.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="window" style="margin-left: 2vw; width: 95vw; height: fit-content ;">
+    <div class="title-bar">
+      <div class="title-bar-text d-flex justify-content-evenly">
+        <a href="#index">INICIO</a>
+        <a href="#info">INFORMACION</a>
+        <a href="#arch">ARCHIVOS</a>
+        <a href="#link">LINKS</a>
+      </div>
+    </div>
+    <div class="window-body" id="index" style="height: fit-content;">
+      <!--INTRO FOR DESKTOP-->
+      <div class="row">
+        <div class="col-md-6 d-none d-md-block">
+          <img src="./img/PORTADITA-RECORTADA.png" width="100%" height="100%" style="object-fit: none;"/>
+        </div>
+        <div class="col-md-3 text-start my-auto fw-bold d-none d-md-block" style="font-size: 2rem;">
+            <p class="my-5">DISEÑO HUMANO,</p>
+            <p class="my-5">REAL,</p>
+            <p class="my-5">SENSIBLE,</p>
+            <p class="my-5">CONSCIENTE.</p>
+        </div>
+        <div class="col-md-1 d-none d-md-block"></div>
+        <div class="col-md-1 d-none d-md-block my-auto text-center">
+          <i class="initialIcons bi bi-person"></i>
+          <a href="#info">Info</a>
+          <i class="initialIcons bi bi-paperclip"></i>
+          <a href="#arch">Archivos</a>
+          <i class="initialIcons bi bi-share" style="font-size:6rem"></i>
+          <a href="#link">Links</a>
+        </div>
+      </div>
+      
+      <!--INTRO FOR MOBILE-->
+      <div class="row d-block d-sm-block d-md-none">
+        <div class="col-12 text-center my-auto fw-bold" style="font-size: 2rem;">
+          <p class="my-5">DISEÑO HUMANO,</p>
+          <p class="my-5">REAL,</p>
+      </div>
+        <div class="col-12">
+          <img src="./img/PORTADITA.png" width="100%" height="100%" style="object-fit:none;"/>
+        </div>
+        <div class="col-12 text-center my-auto fw-bold" style="font-size: 2rem;">
+          <p class="my-5">SENSIBLE,</p>
+          <p class="my-5">CONSCIENTE.</p>
+      </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <div class="window informationDiv" style="margin-left: 2vw; width: 95vw;" id="info">
+    <div class="title-bar">
+      <div class="title-bar-text d-flex justify-content-evenly">
+      </div>
+    </div>
+    <div class="window-body informationDiv">
+      <!--INTRO FOR DESKTOP-->
+      <div class="text-center fw-bold" style="letter-spacing: 1vw; font-size: 1.5rem; padding: 3rem;">
+        <p>ARTISTA, DISEÑADORA Y HUMANA ANSIOSA</p>
+      </div>
+      
+      <div class="row middleContact">
+        <div class="col-12 col-sm-12 col-md-7" style="position: relative;">
+          <img class="imgFrameIzquierdo" src="./img/Frame 31.png" alt="Frame Izquierdo" />
+          <p class="fw-bold pFrameIzquierdo" >Sobre mi</p>
+          <p class="pFrameIzquierdoText" >Tengo 21 años, soy mexicana y curso el 8vo semestre de la carrera en Diseño Grafico Estrategico. <br /> <br /> Creo que realmente jamas dejamos de aprender, me apasiona conocer cosas nuevas, soy ambiciosa, responsable y enfocada a donde quiero llegar y lo que quiero ser.</p>
+        </div>
+        <div class="col-0 col-sm-0 col-md-1"></div>
+        <div class="col-12 col-sm-12 col-md-3 Abilities">
+          <img class="imgFrameDerecho" src="./img/Frame 30.png" alt="Frame Derecho" />
+          <p class="fw-bold pFrameDerecho" >Habilidades</p>
+          <div class="containerHabilidades">
+            <p class="fw-bold pFrameDerechoText" style="font-size: 1.1rem;">Idiomas</p>
+            <p class="pFrameDerechoText">Español</p>
+            <p class="pFrameDerechoText">Ingles</p>
+            <p class="pFrameDerechoText">Italiano</p>
+            <p class="pFrameDerechoText">Frances</p>
+            <p class="fw-bold pFrameDerechoText" style="font-size: 1.1rem;">Software</p>
+            <p class="pFrameDerechoText">Adobe CC</p>
+            <p class="pFrameDerechoText">Maya autodesk</p>
+            <p class="pFrameDerechoText">Figma</p>
+            <p class="pFrameDerechoText">Procreate</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="window imageLinkers" style="width: 95vw;" id="arch">
+      <div class="title-bar">
+        <div class="title-bar-text d-flex justify-content-evenly">
+        </div>
+      </div>
+      <div class="window-body imageLinkers">
+        <div class="text-center fw-bold" style="letter-spacing: 1vw; font-size: 1.5rem; padding: 3rem;">
+          <p>DISENADORA GRAFICA FREELANCE</p>
+        </div>
+        <div class="text-center" style="align-items: center; position: relative;">
+          <div class="customDisplayMd" style="margin-top: -7rem;">
+            <div onclick="location.href = 'disenoeditorial.html'" class="imgForCollageInitializer" style="margin-left: 15%; ">
+              <img src="./img/Frame 34.png" />
+            </div>
+            <div onclick="location.href = 'creacioncontenido.html'" class="imgForCollageInitializer" style="margin-left: 35%; margin-top: 10%;">
+              <img src="./img/Frame 33.png" />
+            </div>
+            <div onclick="location.href = 'fotografia.html'" class="imgForCollageInitializer" style="margin-left: 55%; margin-top: 5%;">
+              <img src="./img/Frame 35.png" />
+            </div>
+            <div onclick="location.href = 'branding.html'" class="imgForCollageInitializer" style="margin-left: 15%; margin-top: 25%;">
+              <img src="./img/Frame 36.png" />
+            </div>
+          </div>
+
+          <div class="customDisplaySM" style="margin-top: -7rem;">
+            <div onclick="location.href = 'disenoeditorial.html'" class="imgForCollageInitializer">
+              <img src="./img/Frame 34.png" />
+            </div>
+            <div onclick="location.href = 'creacioncontenido.html'" class="imgForCollageInitializer evenImage" style="margin-left: 40%; margin-top: 18%;">
+              <img src="./img/Frame 33.png" />
+            </div>
+            <div onclick="location.href = 'fotografia.html'" class="imgForCollageInitializer" style="margin-top: 42%;">
+              <img src="./img/Frame 35.png" />
+            </div>
+            <div onclick="location.href = 'branding.html'" class="imgForCollageInitializer evenImage" style="margin-left: 40%; margin-top: 56%;">
+              <img src="./img/Frame 36.png" />
+            </div>
+          </div>
+
+          
+          <div class="customDisplayXSM" style="margin-top: -7rem; margin-left: -3.5rem;">
+            <div onclick="location.href = 'disenoeditorial.html'" class="imgForCollageInitializer">
+              <img src="./img/Frame 34.png" />
+            </div>
+            <div onclick="location.href = 'creacioncontenido.html'" class="imgForCollageInitializer evenImageXS" style="margin-left: 25%; margin-top: 38%;">
+              <img src="./img/Frame 33.png" />
+            </div>
+            <div onclick="location.href = 'fotografia.html'" class="imgForCollageInitializer" style="margin-top: 75%;">
+              <img src="./img/Frame 35.png" />
+            </div>
+            <div onclick="location.href = 'branding.html'" class="imgForCollageInitializer evenImageXS" style="margin-left: 25%; margin-top: 115%;">
+              <img src="./img/Frame 36.png" />
+            </div>
+          </div>
+          <!--
+          <img src="./img/Collage-MD.png" alt="" class="d-none d-sm-none d-md-block" style="width: 75%; margin: 0 auto;">
+          <img src="./img/Collage-SM.png" alt="" class="d-none d-sm-block d-md-none" style="width: 80%; margin: 0 auto;">
+          <img src="./img/Collage-XSM.png" alt="" class="d-block d-sm-none d-md-none" style="width: 80%; margin: 0 auto;">
+          -->
+        </div>
+      </div>
+    </div>
+
+    <div class="window" style="width: 95vw; height: fit-content;" id="link">
+      <div class="title-bar">
+        <div class="title-bar-text d-flex justify-content-evenly">
+        </div>
+      </div>
+      <div class="window-body" style="height: 90vh;">
+        <div class="text-center fw-bold" style="letter-spacing: 1vw; font-size: 1.5rem; padding: 7rem 3rem;">
+          <p>TRABAJEMOS JUNTXS</p>
+        </div>
+        <div class="row text-center fw-bold contactArea" style="height: fit-content; margin: 0 auto; background-color: white; width: 50%; color: black; padding: 0.7rem;">
+          <p class="col-12" style="border-bottom: 2px solid black; margin: 1; font-size: 1rem;">CONTACTO</p>
+          <div style="font-size: 1rem;">
+            <p>IG - @carmesi_sc</p>
+            <p>Behance - @sabrinachc</p>
+            <p>Tel - 6181327831</p>
+            <p>Mail - schc270@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

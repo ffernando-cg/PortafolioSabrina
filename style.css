@@ -1,0 +1,187 @@
+body {
+  background-color: black;
+}
+
+.title-bar{
+  background-color: black;
+  background: black;
+  height: 7vh;
+  font-size: 1rem;
+  text-align: center;
+  align-items: center;
+}
+
+.title-bar-text{
+  width: 100%;
+  text-align: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 400px){
+  a {
+    font-size: 3vw;
+  }
+}
+
+.window-body{
+  color: white;
+  background-color: black;
+  height: 90vh;
+  margin: 5px;
+}
+
+.initialIcons{
+  font-size: 7rem;
+}
+
+.imgFrameIzquierdo{
+  object-fit: cover;
+  width: 100%;
+  position: absolute;
+  height: auto;
+}
+
+.pFrameIzquierdo{
+  font-size: 1.4rem;
+  color: black;
+  padding: 3.5rem 0 0 6.5vw;
+  position: absolute;
+  width: 100%;
+  border-bottom: 2px solid black;
+}
+
+.pFrameIzquierdoText{
+  font-size: 1rem;
+  color: black;
+  position: absolute;
+  width: 80%;
+  padding: 6rem 0 0 6rem;
+  letter-spacing: .8vw;
+}
+
+.containerHabilidades{
+  position: absolute;
+  padding: 10vh 0 0 2vw;
+}
+
+.imgFrameDerecho{
+  margin-top: 4.5vh;
+  position: absolute;
+  height: auto;
+}
+
+.pFrameDerecho{
+  font-size: 1.4rem;
+  color: black;
+  padding: 3.5rem 0 0 4.5rem;
+  position: absolute;
+  width: 23%;
+  border-bottom: 2px solid black;
+}
+
+.pFrameDerechoText{
+  font-size: 1rem;
+  color: black;
+  letter-spacing: .5vw;
+}
+.contactArea p{
+  padding: 1rem;
+}
+
+.imgForCollageInitializer{
+  object-fit: none;
+  position: absolute;
+  cursor: pointer;
+  width: fit-content;
+  height: fit-content;
+  margin: 0;
+}
+
+.customDisplayMd{
+  display: block;
+}
+
+.customDisplaySM, .customDisplayXSM{
+  display:none
+}
+
+.imageLinkers{
+  height: 110vh;
+}
+
+@media (max-width: 1050px){
+  .customDisplayMd{
+    display: none;
+  }
+
+  .customDisplaySM{
+    display: block;
+  }
+
+  .imageLinkers{
+    height: 125vh!important;
+  }
+}
+
+.informationDiv{
+  height: 100vh;
+}
+
+
+.insideDetails{
+  height: 100vh;
+}
+
+.insideDetails2{
+  height: 100vh;
+}
+
+@media (max-width: 767px){
+  .Abilities{
+    margin: 50% 0 0 15vw;
+    width: 50%;
+  }
+
+  .informationDiv{
+    height: 140vh;
+  }
+
+  .insideDetails{
+    height: 150vh;
+  }
+
+  .insideDetails2{
+    height: 170vh;
+  }
+}
+
+@media (max-width: 800px){
+  .customDisplaySM div{
+    margin-left: -1rem;
+  }
+  .evenImage {
+    margin-left: 30%!important;
+  }
+}
+
+@media (max-width: 690px){
+  .imageLinkers{
+    height: 150vh!important;
+  }
+  .customDisplayMd{
+    display: none;
+  }
+
+  .customDisplaySM{
+    display: none;
+  }
+
+  .customDisplayXSM{
+    display: block;
+  }
+}
